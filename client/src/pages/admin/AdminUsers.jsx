@@ -1,7 +1,8 @@
 import React from 'react'
+import AdminLayout from '../../layout/AdminLayout'
 
 export default function AdminUsers() {
   return (
-    <div>AdminUsers</div>
+    <AdminLayout>AdminUsers</AdminLayout>
   )
 }

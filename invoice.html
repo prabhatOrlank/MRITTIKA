@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: Arial; font-size: 12px; margin: 20px; }
+    .header { display: flex; justify-content: space-between; align-items: center; }
+    .logo { height: 40px; }
+    .section { margin-top: 20px; }
+    .table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    .table, .table th, .table td { border: 1px solid #ccc; }
+    .table th, .table td { padding: 8px; text-align: left; }
+    .summary td { border: none; }
+    .footer { margin-top: 30px; font-size: 10px; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="https://example.com/flipkart-logo.png" class="logo" />
+    <div>
+      <strong>Tax Invoice / Bill of Supply</strong><br />
+      Invoice No: INV12345<br />
+      Order ID: 68661af63f77b5ed9d043955<br />
+      Order Date: 03/07/2025
+    </div>
+  </div>
+
+  <div class="section">
+    <strong>Sold By:</strong><br />
+    ABC Traders Pvt Ltd<br />
+    GSTIN: 27XXXXXXXXX6ZP<br />
+    Address: 123 Main Road, Mumbai, India
+  </div>
+
+  <div class="section">
+    <strong>Billing To:</strong><br />
+    Sakshi V<br />
+    Email: prabhat6914@gmail.com<br />
+    Phone: Not Provided
+  </div>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>S.No</th>
+        <th>Product Name</th>
+        <th>HSN</th>
+        <th>Qty</th>
+        <th>Unit Price</th>
+        <th>Tax</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Prabhat Orlank</td>
+        <td>6109</td>
+        <td>1</td>
+        <td>$425.00</td>
+        <td>$0.00</td>
+        <td>$425.00</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="table summary">
+    <tr><td>Subtotal:</td><td>$425.00</td></tr>
+    <tr><td>Delivery Fee:</td><td>$0.00</td></tr>
+    <tr><td>Discount:</td><td>-$0.00</td></tr>
+    <tr><td><strong>Total Payable:</strong></td><td><strong>$425.00</strong></td></tr>
+  </table>
+
+  <div class="footer">
+    This is a computer-generated invoice. No signature required.<br />
+    Return Policy: 10 days replacement only.
+  </div>
+</body>
+</html>

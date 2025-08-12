@@ -1,7 +1,8 @@
 import React from 'react'
+import AdminLayout from '../../layout/AdminLayout'
 
 export default function AdminProducts() {
   return (
-    <div>AdminProducts</div>
+    <AdminLayout>AdminProducts</AdminLayout>
   )
 }

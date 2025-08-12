@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaShoppingBag } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 export default function ProductCard({ product }) {
@@ -17,10 +18,10 @@ export default function ProductCard({ product }) {
                 <span className="text-neutral-600 line-through">₹{product.price.toFixed(2)}</span>
             </div>
             <button
-                className="w-full text-white bg-orange-600 hover:bg-orange-700 p-2 rounded font-semibold transition-colors duration-300"
+                className="w-fit flex items-center gap-1.5 justify-center text-white bg-orange-600 hover:bg-orange-700 p-2 px-4 md:px-8 rounded-full font-semibold transition-colors duration-300"
                 aria-label={`Add ${product.productName} to cart`}
             >
-                Add to Cart
+               <FaShoppingBag /> Add to Cart
             </button>
         </Link>
     );

@@ -156,7 +156,7 @@ export default function CartPage() {
                                     <input
                                         type="text"
                                         placeholder="Enter code"
-                                        className="w-full px-3 py-2 border border-gray-300 rounded mt-2 focus:outline-none focus:ring-2 focus:ring-orange-500"
+                                        className="w-full px-3 py-2 border border-gray-200 rounded mt-2 focus:outline-none focus:ring-2 focus:ring-orange-500"
                                         value={promoCode}
                                         onChange={(e) => setPromoCode(e.target.value)}
                                     />

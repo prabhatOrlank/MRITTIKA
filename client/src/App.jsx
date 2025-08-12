@@ -15,6 +15,7 @@ import AdminDashboard from './pages/admin/AdminDashboard'
 import AdminUsers from './pages/admin/AdminUsers'
 import AdminProducts from './pages/admin/AdminProducts'
 import AdminOrders from './pages/admin/AdminOrders'
+import AdminCategory from './pages/admin/AdminCategory'
 
 export default function App() {
   return (
@@ -49,9 +50,10 @@ export default function App() {
         {/* Admin-related routes */}
         <Route path="/admin" >
           <Route path="dashboard" element={<AdminDashboard />} />
-          <Route path="users" element={<AdminUsers />} />
+          <Route path="category" element={<AdminCategory />} />
           <Route path="products" element={<AdminProducts />} />
           <Route path="orders" element={<AdminOrders />} />
+          <Route path="users" element={<AdminUsers />} />
         </Route>
 
         {/* Fallback route for 404 */}

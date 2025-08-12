@@ -71,7 +71,8 @@ export default function Header() {
                     <span className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full px-1 text-xs">4</span>
                 </Link>
                 {/* <Link to="/auth" className="hover:text-orange-600" aria-label="User Account"><LuCircleUserRound size={24} /></Link> */}
-                <Link to="/user/profile" className="hover:text-orange-600" aria-label="User Account"><LuCircleUserRound size={24} /></Link>
+                {/* <Link to="/user/profile" className="hover:text-orange-600" aria-label="User Account"><LuCircleUserRound size={24} /></Link> */}
+                <Link to="/admin/dashboard" className="hover:text-orange-600" aria-label="User Account"><LuCircleUserRound size={24} /></Link>
             </div>
 
             {/* Sidebar Overlay */}
